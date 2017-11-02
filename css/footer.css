@@ -1,5 +1,5 @@
 body{
-	background: url("../images/Background-Pictures-46G.jpg") repeat;
+	background: url("../images/Blue-Background.jpeg") repeat;
 }
 
 #footer{
@@ -36,3 +36,92 @@ body{
 	margin: 10px 0px;
 }
 
+#footer img{
+	border: none;
+}
+
+#footer li ul{
+	list-style: none;
+	padding: 0px;
+	margin-bottom: 12px;
+}
+
+.clear{
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
+}
+
+#footer .whiteBorder{
+	border: 1px solid white;
+}
+
+#footer .img_left{
+	float: left;
+	margin-right: 10px;
+	width: 40px;
+}
+
+#footer .black_box{
+	background-color: rgba(0,0,0,0.4);
+	padding: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+
+#footer #notifications{
+	float: right;
+	width: auto;
+	margin: 5px 15px 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+#footer #notifications li{
+	margin-right: 12px;
+	float: left;
+	width: 24px;
+	padding: 0px;
+	height: 32px;
+	list-style: none;
+}
+
+#footer #notifications li:hover{
+	margin-top: -1px;
+}
+
+a.notificationIcons span{
+	display: none;
+	font-size: 12px;
+	color: white;
+	bottom: 45px;
+	width: 150px;
+	position: absolute;
+	border: 1px solid #333333;
+	border-radius: 3px;
+	padding: 5px;
+	margin-left: -75px;
+	background-color: rgba(0,0,0,0.4);
+}
+
+a.notificationIcons:hover span{
+	display: block;
+}
+
+#footer_menu{
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+}
+
+#footer_menu li{
+	list-style: none;
+	float: left;
+	font-size: 12px;
+	padding: 12px 14px 14px 14px;
+	border-right: 1px solid rgba(0,0,0,0.4);
+	background-color: rgba(0,0,0,0.1);
+}
